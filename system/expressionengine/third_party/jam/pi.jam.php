@@ -26,7 +26,7 @@
 
 $plugin_info = array(
 	'pi_name'		=> 'JAM:EE',
-	'pi_version'	=> '1.1',
+	'pi_version'	=> '1.2',
 	'pi_author'		=> 'Matthew Kirkpatrick',
 	'pi_author_url'	=> 'http://www.designafterdusk.com',
 	'pi_description'=> 'Just A Minute plugin for EE',
@@ -82,7 +82,7 @@ class Jam {
 		$when = mktime ($hour, $minute, $second, $month, $day, $year);
 
 		// OUTPUT
-		if ($format) { $output = $this->EE->localize->decode_date($format, $when); }
+		if ($format) { $output = $this->EE->localize->format_date($format, $when); }
 			else { $output = $when; }
 
 		return $output;
