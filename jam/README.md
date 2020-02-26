@@ -2,16 +2,16 @@
 ExpressionEngine Plugin that exposes PHP's time(), date(), and mktime() functions into EE templates.
 
 # `{exp:jam:when}`
-| parameter | description             | type   | options                                                                                               | default                     |
-|-----------|-------------------------|--------|-------------------------------------------------------------------------------------------------------|-----------------------------|
-| `time`    | Unix timestamp          | int    |                                                                                                       | current localized unix time |
-| `format`  | Date format pattern     | string | [See Documentation](https://docs.expressionengine.com/latest/templates/date-variable-formatting.html) |                             |
-| `hour`    | Hour or [+|-] hours     | int    |                                                                                                       | Current localized hour      |
-| `minute`  | Minute or [+|-] minutes | int    |                                                                                                       | Current localized minute    |
-| `second`  | Second or [+|-] seconds | int    |                                                                                                       | Current localized second    |
-| `month`   | Month or [+|-] months   | int    |                                                                                                       | Current localized month     |
-| `day`     | Day or [+|-] days       | int    |                                                                                                       | Current localized day       |
-| `year`    | Year or [+|-] years     | int    |                                                                                                       | Current localized year      |
+| parameter | description              | type   | options                                                                                               | default                     |
+|-----------|--------------------------|--------|-------------------------------------------------------------------------------------------------------|-----------------------------|
+| `time`    | Unix timestamp           | int    |                                                                                                       | current localized unix time |
+| `format`  | Date format pattern      | string | [See Documentation](https://docs.expressionengine.com/latest/templates/date-variable-formatting.html) |                             |
+| `hour`    | Hour or [+\|-] hours     | int    |                                                                                                       | Current localized hour      |
+| `minute`  | Minute or [+\|-] minutes | int    |                                                                                                       | Current localized minute    |
+| `second`  | Second or [+\|-] seconds | int    |                                                                                                       | Current localized second    |
+| `month`   | Month or [+\|-] months   | int    |                                                                                                       | Current localized month     |
+| `day`     | Day or [+\|-] days       | int    |                                                                                                       | Current localized day       |
+| `year`    | Year or [+\|-] years     | int    |                                                                                                       | Current localized year      |
 
 &nbsp;
 # Examples
