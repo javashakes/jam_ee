@@ -3,4 +3,4 @@ ExpressionEngine Plugin that exposes PHP's time(), date(), and mktime() function
 
 **Compatible with EE v2-5**
 
-**Documentation:** https://github.com/javashakes/jam_ee/tree/master/jam_ee
+**Documentation:** https://github.com/javashakes/jam_ee/tree/master/jam
