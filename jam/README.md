@@ -1,5 +1,7 @@
-# Documentation
+# Documentation for Just a Minute!
 ExpressionEngine Plugin that exposes PHP's time(), date(), and mktime() functions into EE templates.
+
+**Compatible with EE v2-5**
 
 # `{exp:jam:when}`
 | parameter | description              | type   | options                                                                                               | default                     |
