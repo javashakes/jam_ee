@@ -13,7 +13,7 @@
 if ( ! defined('JAM_NAME'))
 {
     define('JAM_NAME',              'Just a Minute!');
-    define('JAM_VERSION',           '2.1.0');
+    define('JAM_VERSION',           '2.0.0');
     define('JAM_AUTHOR',            'Matthew Kirkpatrick');
     define('JAM_AUTHOR_URL',        'https://github.com/javashakes');
     define('JAM_DOCS',              'https://github.com/javashakes/jam_ee');
